@@ -1,5 +1,6 @@
 import {FC, Ref, SyntheticEvent} from 'react';
-import {NativeMethods, ViewProps} from 'react-native';
+import {NativeMethods} from 'react-native';
+import type {ViewPropTypes as ViewProps} from 'deprecated-react-native-prop-types';
 
 type IOSMode = 'date' | 'time' | 'datetime' | 'countdown';
 type AndroidMode = 'date' | 'time';
